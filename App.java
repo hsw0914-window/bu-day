@@ -38,7 +38,7 @@ public class App {
         //크기가 3인 배열 oldArray = {1,2,3}을 크기가 5인 newArray로 복사하고,
         // 4번째와 5번째 칸에는 각각 40, 50을 채워 넣는 코드를 작성하세요.
         // (System.arraycopy 사용)
-        System.arraycopy(args, srcPos: 0, args, destPos: 0, length: 0);
+        // System.arraycopy(args, 0, args, 0, 0); // 이건 필요 없음
 
         // 1. 원본배열
         // 2. 복사할 항목의 시작 인덱스
@@ -48,11 +48,11 @@ public class App {
 
         int[] oldArray = {1,2,3};
         int[] newArray = new int[5];
-        System.arraycopy(oldArray, srcPos : 0, newArray, destPos: 0, oldArray.length);
-        newArray[4] = 40;
-        newArray[5] = 50;
+        System.arraycopy(oldArray, 0, newArray, 0, oldArray.length);
+        newArray[3] = 40;
+        newArray[4] = 50;
         for (int i : newArray) {
-            System.out.println("newArray 아이템 : " + item);
+            System.out.println("newArray 아이템 : " + i);
         }
 
 

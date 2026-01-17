@@ -1,4 +1,4 @@
-package chap07.sec02;
+package chap07.sec01.exam02;
 
 import chap06.sec04.exam02.Computer;
 

@@ -1,4 +1,4 @@
-package chap07.sec02;
+package chap07.sec01.exam02;
 
 public class Calculator {
     double areaCircle(double r){

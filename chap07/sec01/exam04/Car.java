@@ -1,9 +1,9 @@
-package chap07.sec04;
+package chap07.sec01.exam04;
 
 public class Car {
     public int speed;
 
-    public void speedp() {
+    public void speedUp() {
         speed +=1;
     }
 

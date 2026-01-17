@@ -1,4 +1,4 @@
-package chap07.sec03;
+package chap07.sec01.exam03;
 
 public class SupersonicAirplaneExample {
     public static void main(String[] args) {

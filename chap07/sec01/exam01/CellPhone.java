@@ -1,4 +1,4 @@
-package chap07.sec01;
+package chap07.sec01.exam01;
 
 public class CellPhone {
     String model;
