@@ -15,5 +15,8 @@ public class Computer {
         }
         return sum;
     }
+    public double areaCircle(double r){
+        return 3.14159 * r * r;
+    }
     
 }

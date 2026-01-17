@@ -1,4 +1,4 @@
-package RealTest_0110.Test_A_SingleTon;
+package RealTest.Test_A_SingleTon;
 
 public class CompanyExample {
     public static void main(String[] args) {

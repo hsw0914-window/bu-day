@@ -1,4 +1,4 @@
-package RealTest_0110.Test_A_Static;
+package RealTest.Test_A_Static;
 
 public class StudentExample {
     public static void main(String[] args) {
